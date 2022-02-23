@@ -11,7 +11,7 @@ class FailingTest extends TestCase
      *
      * @return void
      */
-    public function failingTestCase()
+    public function test_failing_test()
     {
         $this->assertTrue(false);
     }

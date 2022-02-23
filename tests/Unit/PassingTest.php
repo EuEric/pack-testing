@@ -11,7 +11,7 @@ class PassingTest extends TestCase
      *
      * @return void
      */
-    public function passingTestCase()
+    public function test_passing_test()
     {
         $this->assertTrue(true);
     }
