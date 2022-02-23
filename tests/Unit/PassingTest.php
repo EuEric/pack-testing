@@ -13,6 +13,11 @@ class PassingTest extends TestCase
      */
     public function test_passing_test()
     {
-        $this->assertTrue(true);
+        try {
+            $this->assertTrue(true);
+        } catch (PHPUnit_Framework_AssertionFailedError $e) {
+            //catching the error to still allow test run
+        }
+
     }
 }
